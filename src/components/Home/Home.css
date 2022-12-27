@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    /* color: black; */
+    margin-top: 10%;
+    /* margin-top: 30%; */
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.homeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 40%; */
+    margin: 0 10%;
+
+    font-weight: bold;
+}
+
+.homeText h2 {
+    display: flex;
+    text-align: center;
+}
+
+.homeText p {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
