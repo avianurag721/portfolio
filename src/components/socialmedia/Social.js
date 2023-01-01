@@ -11,7 +11,7 @@ import mail from "./mail.png";
 const Social = () => {
   return (
     <div className="social">
-      <div>
+      <div >
         <h2>Social Links</h2>
         <div className="socialMedia" name="socialmedia">
           <a className="whatsapp" href="https://wa.me/+919140931309">
@@ -44,8 +44,8 @@ const Social = () => {
           </a>
         </div>
       </div>
-          <div className="contact">
-        <div>
+      <div className="contact">
+        <div className="contactInfo">
           <h2>Contact Info</h2>
           <div className="mail">
             <img src={mail} alt="" />
@@ -53,8 +53,8 @@ const Social = () => {
           </div>
           <div className="add">
             <img src={home} alt="" />
-                      Integral University,Dasauli, Kursi Road,Lucknow <br />
-                      226026,Uttar Pradesh
+            Integral University,Dasauli, Kursi Road,Lucknow <br />
+            226026,Uttar Pradesh
           </div>
           <div className="phone">
             <img src={phone} alt="" />
