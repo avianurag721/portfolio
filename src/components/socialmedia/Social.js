@@ -49,12 +49,14 @@ const Social = () => {
           <h2>Contact Info</h2>
           <div className="mail">
             <img src={mail} alt="" />
-            avianurag.721@gmail.com
+                      avianurag.721@gmail.com <br />
+                      anurag.721721@gmail.com
+                      
           </div>
           <div className="add">
             <img src={home} alt="" />
-            Integral University,Dasauli, Kursi Road,Lucknow <br />
-            226026,Uttar Pradesh
+            Sant Kabir Enclave,<br /> Integral University,Dasauli,Kursi Road,Lucknow, 226026, <br />
+            Uttar Pradesh,India
           </div>
           <div className="phone">
             <img src={phone} alt="" />

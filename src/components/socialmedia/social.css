@@ -7,8 +7,7 @@
   flex-direction: column;
   margin-left: 10px;
   color: white;
-  margin: 10px;
-  width: 50%;
+  margin-left: 40px;
 }
 
 .socialMedia span {
@@ -48,15 +47,13 @@
   flex-direction: column;
   margin-left: 10px;
   color: white;
-  /* margin: 10px; */
-  width: 50%;
 }
 .contactInfo {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     color: white;
-    /* margin: 10px; */
+    margin: 10px 0;
   }
 .contact img {
   width: 6%;
@@ -84,7 +81,6 @@
   align-items: center;
   margin: 10px 10%;
   font-weight: 700;
-  /* justify-content: center; */
 }
 .phone img{
     margin: 0 10%;
@@ -98,5 +94,6 @@
   .contact img {
     width: 10%;
   }
+  
 
 }
