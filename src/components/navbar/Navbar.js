@@ -11,8 +11,8 @@ const Navbar = () => {
                 <li >Home</li>
                 <li>About</li>
                 <li>Technologies</li>
-                <li>Social media</li>
-                <li>Contact </li>
+                <li>Contact</li>
+                {/* <li>Contact </li> */}
             </div>
             
 

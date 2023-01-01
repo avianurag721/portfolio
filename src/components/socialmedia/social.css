@@ -1,0 +1,98 @@
+.social {
+  display: flex;
+}
+.socialMedia {
+    display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: white;
+  margin: 10px;
+  width: 50%;
+}
+
+.socialMedia span {
+  margin-left: 50px;
+  font-weight: 700;
+}
+.socialMedia a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.socialMedia img {
+  width: 10%;
+}
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin: 10px 10%;
+}
+.linkedin {
+    display: flex;
+    align-items: center;
+    margin: 10px 10%;
+}
+.github {
+    display: flex;
+    align-items: center;
+    margin: 10px 10%;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    margin: 10px 10%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: white;
+  margin: 10px;
+  width: 50%;
+}
+.contact img {
+  width: 6%;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  margin: 10px 10%;
+  font-weight: 700;
+}
+.mail img{
+    margin: 0 10%;
+}
+.add {
+  display: flex;
+  align-items: center;
+  margin: 10px 10%;
+  font-weight: 700;
+}
+.add img{
+    margin: 0 10%;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  margin: 10px 10%;
+  font-weight: 700;
+  /* justify-content: center; */
+}
+.phone img{
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact img {
+    width: 10%;
+  }
+
+}

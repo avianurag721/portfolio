@@ -19,7 +19,7 @@ body {
 }
 h2 {
   padding-left: 5%;
-  color: #ff004f;
+  color: rgb(241, 169, 169);
   text-decoration: underline;
 }
 @media screen and (max-width: 480px) {
@@ -32,7 +32,7 @@ h2 {
     width: 100%;
   }
   h2 {
-    color: #ff004f;
+    color: white;
     padding-left: 5%;
     text-align: center;
   }
@@ -61,5 +61,12 @@ h2 {
    
     
   }
+  .socialMedia{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  
  
 }
