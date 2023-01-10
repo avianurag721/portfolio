@@ -2,6 +2,11 @@
   display: flex;
   margin-top: 10%;
 }
+a{
+  color: white;
+  text-decoration: none;
+
+}
 .socialMedia {
     display: flex;
   flex-direction: column;

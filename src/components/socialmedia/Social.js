@@ -11,7 +11,7 @@ import mail from "./mail.png";
 const Social = () => {
   return (
     <div className="social">
-      <div >
+      <div>
         <h2>Social Links</h2>
         <div className="socialMedia" name="socialmedia">
           <a className="whatsapp" href="https://wa.me/+919140931309">
@@ -49,18 +49,20 @@ const Social = () => {
           <h2>Contact Info</h2>
           <div className="mail">
             <img src={mail} alt="" />
-                      avianurag.721@gmail.com <br />
-                      anurag.721721@gmail.com
-                      
+            <a href="mailto:avianurag.721@gmail.com">
+              avianurag.721@gmail.com 
+            </a>
           </div>
           <div className="add">
             <img src={home} alt="" />
-            Sant Kabir Enclave,<br /> Integral University,Dasauli,Kursi Road,Lucknow, 226026, <br />
+            Sant Kabir Enclave,
+            <br /> Integral University,Dasauli,Kursi Road,Lucknow, 226026,{" "}
+            <br />
             Uttar Pradesh,India
           </div>
           <div className="phone">
             <img src={phone} alt="" />
-            9140931309
+            <a href="tel:+91910931309">9140931309</a>
           </div>
         </div>
       </div>
