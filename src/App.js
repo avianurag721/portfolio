@@ -1,20 +1,19 @@
-
-import './App.css';
-import About from './components/About/About';
-import Home from './components/Home/Home';
-import Navbar from './components/navbar/Navbar';
-import Social from './components/socialmedia/Social';
-import Techy from './components/techi/Techy';
-// import Form from './form/form';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Login from "./components/login/Login";
+import SignIn from "./components/SignIn";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <About />
-      <Techy />
-      <Social/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<SignIn />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </>
   );
 }
